@@ -2,24 +2,9 @@
 
 ## Overview
 
-**runtimeatlas** is a curated knowledge hub focused on understanding and analyzing **system and program behavior during execution** across multiple cybersecurity domains.
+**runtimeatlas** is a personal knowledge hub containing curated notes, rewritten concepts, and indexes developed through formal training and independent study across multiple cybersecurity disciplines.
 
-Rather than treating offensive, defensive, and forensic disciplines as separate silos, this repository organizes knowledge around a shared reality:
-
-> **Security-relevant outcomes emerge when software is running.**
-
----
-
-## Core Perspective
-
-In cybersecurity, nearly everything ultimately reduces to **program execution**:
-
-- Attacks succeed because code executes in unintended ways  
-- Defenses detect, constrain, or log behavior while systems are running  
-- Forensics reconstructs what executed and how  
-- Reverse engineering explains why execution behaved as observed  
-
-This repository documents concepts, methodologies, and mental models that help explain **what systems do at runtime**, not just how they are designed or configured.
+The repository emphasizes understanding *how systems and software behave in practice* rather than documenting lab walkthroughs or procedural instructions.
 
 ---
 
@@ -44,27 +29,27 @@ All content is written in original language and generalized beyond specific trai
 
 ## Domains Represented
 
-Content in this repository spans and connects:
+Content in this repository draws from and connects work across:
 
-- Incident response and detection  
+- Incident response  
 - Network and memory forensics  
-- Reverse engineering and malware analysis  
+- Reverse engineering  
 - Binary exploitation and offensive foundations  
 
-These domains are treated as **different viewpoints on the same runtime phenomena**, rather than isolated skill sets.
+These domains are presented as complementary perspectives rather than isolated skill areas.
 
 ---
 
 ## Organization
 
-The repository is structured primarily by **certification context** for clarity, while remaining unified through shared indexes and runtime-centric analysis.
+The repository is organized primarily by certification context for clarity, with shared indexes used to connect concepts across domains.
 
 ```text
 runtimeatlas/
-├── index/          # Cross-domain and runtime-focused indexes
-├── gcih/           # Incident response perspectives
-├── gnfa/           # Forensics and artifact analysis
-├── grem/           # Reverse engineering and program internals
-├── gxpn/           # Exploitation and execution control
-├── oscp/           # Offensive foundations
-└── meta/           # Ethics, scope, and disclosure
+├── index/
+├── gcih/
+├── gnfa/
+├── grem/
+├── gxpn/
+├── oscp/
+└── meta/
