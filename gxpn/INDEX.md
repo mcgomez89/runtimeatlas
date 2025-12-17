@@ -7,107 +7,174 @@ The list represents vocabulary only and does not include procedures, labs, comma
 
 ## Symbols
 
-### /GS
-- Labs: 5.1, 5.3  
-- Related: DEP, W^X, Mitigation Controls
+### **/GS**
+↳ Labs: 5.1, 5.3  
+↳ Related: DEP, W^X, Mitigation Controls
 
-### W^X
-- Labs: 4.2, 4.6, 5.3, 5.4  
-- Related: DEP, NX Bit, ROP
+### **W^X**
+↳ Labs: 4.2, 4.6, 5.3, 5.4  
+↳ Related: DEP, NX Bit, ROP
 
-### XD / ED Bit
-- Related: DEP, NX Bit
+### **XD / ED Bit**
+↳ Related: DEP, NX Bit
 
 ---
 
 ## A
 
-### 802.1Q
-- Labs: 1.2  
-- Related: DTP, VLAN Participation, VLAN Hopping, CDP, Yersinia, Voice VLAN
+### **802.1Q**
+↳ Labs: 1.2  
+↳ Related: DTP, VLAN Participation, VLAN Hopping, CDP, Yersinia, Voice VLAN
 
-### 802.1X
-- Labs: 1.2, 2.1  
-- Related: NAC, RADIUS, EAP Shadow, User Impersonation
+### **802.1X**
+↳ Labs: 1.2, 2.1  
+↳ Related: NAC, RADIUS, EAP Shadow, User Impersonation
 
-### Accumulator Register (EAX/RAX)
-- Labs: 4.1, 4.3  
-- Related: General-Purpose Registers, Calling Conventions
+### **Accumulator Register (EAX/RAX)**
+↳ Labs: 4.1, 4.3  
+↳ Related: General-Purpose Registers, Calling Conventions
 
-### Address Space Layout Randomization (ASLR)
-- Labs: 4.3, 4.4, 4.6, 5.2, 5.3, 6.1  
-- Related: Canaries, Stack Protection, Security Cookies, PIE, DEP
+### **Address Space Layout Randomization (ASLR)**
+↳ Labs: 4.3, 4.4, 4.6, 5.2, 5.3, 6.1  
+↳ Related: Canaries, Stack Protection, Security Cookies, PIE, DEP
 
-### Advanced
-- Related: Post Exploitation
+### **Advanced**
+↳ Related: Post Exploitation
 
-### AES
-- Labs: 2.1  
-- Related: Cryptography, CBC, OpenSSL
+### **AES**
+↳ Labs: 2.1  
+↳ Related: Cryptography, CBC, OpenSSL
 
-### Alternative Payloads
-- Labs: 4.5, 6.1  
-- Related: Library Loading, Environment Variables
+### **Alternative Payloads**
+↳ Labs: 4.5, 6.1  
+↳ Related: Library Loading, Environment Variables
 
-### American Fuzzy Lop (AFL)
-- Labs: 3.5  
-- Related: Fuzzing, Sulley, BooFuzz, Code Coverage, DynamoRIO, WinAFL
+### **American Fuzzy Lop (AFL)**
+↳ Labs: 3.5  
+↳ Related: Fuzzing, Sulley, BooFuzz, Code Coverage, DynamoRIO, WinAFL
 
-### AMSI
-- Labs: 2.5  
-- Related: UAC, WDAC, Obfuscation, Sharpkiller
+### **AMSI**
+↳ Labs: 2.5  
+↳ Related: UAC, WDAC, Obfuscation, Sharpkiller
 
-### AppArmor
-- Related: SELinux
+### **AppArmor**
+↳ Related: SELinux
 
-### AppLocker
-- Labs: 2.6  
-- Related: WDAC, Software Restriction Policy
+### **AppLocker**
+↳ Labs: 2.6  
+↳ Related: WDAC, Software Restriction Policy
 
-### ARP Spoofing
-- Labs: 1.3  
-- Related: MITM, Ettercap, Responder
+### **ARP Spoofing**
+↳ Labs: 1.3  
+↳ Related: MITM, Ettercap, Responder
 
 ---
 
 ## B
 
-### Backup Designated Router (BDR)
-- Labs: 1.6  
-- Related: OSPF
+### **Backup Designated Router (BDR)**
+↳ Labs: 1.6  
+↳ Related: OSPF
 
-### BetterCap
-- Labs: 1.3, 1.5  
-- Related: Ettercap, MITM, Scapy, mitmproxy, sslstrip
+### **BetterCap**
+↳ Labs: 1.3, 1.5  
+↳ Related: Ettercap, MITM, Scapy, mitmproxy, sslstrip
 
-### BGP
-- Related: Routing Protocols
+### **BGP**
+↳ Related: Routing Protocols
 
-### Blowfish
-- Related: Cryptography
+### **Blowfish**
+↳ Related: Cryptography
 
-### BooFuzz
-- Labs: 3.4  
-- Related: Fuzzing, Sulley, Code Coverage, AFL
+### **BooFuzz**
+↳ Labs: 3.4  
+↳ Related: Fuzzing, Sulley, Code Coverage, AFL
 
-### brk()
-- Related: Heap, Memory Allocation
+### **brk()**
+↳ Related: Heap, Memory Allocation
 
-### Browser Caching
-- Related: HTTP Headers
+### **Browser Caching**
+↳ Related: HTTP Headers
 
-### Brute-Forcing ASLR
-- Labs: 4.4  
-- Related: ASLR, Probabilistic Exploitation
+### **Brute-Forcing ASLR**
+↳ Labs: 4.4  
+↳ Related: ASLR, Probabilistic Exploitation
 
-### Bypassing NX Bit / W^X / DEP
-- Labs: 4.2, 4.6, 5.3, 5.4  
-- Related: DEP, ROP, VirtualProtect
+### **Bypassing NX Bit / W^X / DEP**
+↳ Labs: 4.2, 4.6, 5.3, 5.4  
+↳ Related: DEP, NX Bit, ROP
 
 ---
 
 ## C
 
-### C2
-- Related: Post Ex
+### **C2**
+↳ Related: Post Exploitation, Empire
+
+### **Cain**
+↳ Related: Credential Capture, HTTP Authentication
+
+### **Calling Conventions**
+↳ Labs: 4.1, 5.1  
+↳ Related: Stack Operations, Registers
+
+### **Canaries**
+↳ Labs: 4.1, 5.2  
+↳ Related: Stack Protection, Linux Stack Protection, Security Cookies
+
+### **Captive Portal**
+↳ Labs: 1.2  
+↳ Related: NAC, TCP OS Fingerprinting, OSfuscate, Scapy, VLAN Manipulation, sslstrip
+
+### **captive portal scam**
+↳ Labs: 1.2  
+↳ Related: Captive Portal
+
+### **chunk**
+↳ Related: IPv6, Heap, Low Fragmentation Heap
+
+### **Cipher Block Chaining (CBC)**
+↳ Labs: 2.2  
+↳ Related: Padding Oracle, Cryptography
+
+### **Cisco Discovery Protocol (CDP)**
+↳ Related: DTP, Yersinia, Voice VLAN
+
+### **Cloud-Based Cracking**
+↳ Related: Password Attacks
+
+### **Code Coverage**
+↳ Labs: 3.2  
+↳ Related: Fuzzing, AFL, Sulley, BooFuzz, DynamoRIO
+
+### **Code Segment (CS)**
+↳ Related: Stack Operations, ROP, W^X
+
+### **Control Flow Guard (CFG)**
+↳ Labs: 5.1  
+↳ Related: Control Flow Integrity, Mitigation Controls
+
+### **Control Flow Integrity (CFI)**
+↳ Related: CFG, Exploit Mitigation
+
+### **Control Registers**
+↳ Related: Instruction Pointer
+
+### **Counter (CTR)**
+↳ Labs: 2.1  
+↳ Related: ECB, CBC, Cryptography
+
+### **CPU Modes**
+↳ Related: Processor Access Modes
+
+### **cpscam**
+↳ Related: Captive Portal
+
+### **crashbin_explorer.py**
+↳ Labs: 3.4  
+↳ Related: Fuzzing, Crash Analysis
+
+### **crypto**
+↳ Related: Cryptography
+
 
