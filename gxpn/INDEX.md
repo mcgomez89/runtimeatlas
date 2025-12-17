@@ -4,299 +4,174 @@ This file contains a consolidated list of indexed terms associated with advanced
 The list represents vocabulary only and does not include procedures, labs, commands, tools, or environment-specific details.
 
 ---
-
 ## Symbols
 
-- /GS
-- W^X
-- XD / ED Bit
+- /GS  
+  ↳ Labs: 5.1, 5.3  
+  ↳ Related: DEP, W^X, Mitigation Controls
+
+- W^X  
+  ↳ Labs: 4.2, 4.6, 5.3, 5.4  
+  ↳ Related: DEP, NX Bit, ROP
+
+- XD / ED Bit  
+  ↳ Related: DEP, NX Bit
 
 ---
 
 ## A
 
-- 802.1Q
-- 802.1X
-- Accumulator Register (EAX/RAX)
-- Address Space Layout Randomization (ASLR)
-- Advanced
-- Advanced Persistent Threats
-- AES
-- Alternative Payloads
-- American Fuzzy Lop (AFL)
-- AMSI
-- AppArmor
-- AppLocker
-- ARP Spoofing
+- 802.1Q  
+  ↳ Labs: 1.2  
+  ↳ Related: DTP, VLAN Participation, VLAN Hopping, CDP, Yersinia, Voice VLAN
+
+- 802.1X  
+  ↳ Labs: 1.2, 2.1  
+  ↳ Related: NAC, RADIUS, EAP Shadow, User Impersonation
+
+- Accumulator Register (EAX/RAX)  
+  ↳ Labs: 4.1, 4.3  
+  ↳ Related: General-Purpose Registers, Calling Conventions
+
+- Address Space Layout Randomization (ASLR)  
+  ↳ Labs: 4.3, 4.4, 4.6, 5.2, 5.3, 6.1  
+  ↳ Related: Canaries, Stack Protection, Security Cookies, PIE, DEP
+
+- Advanced  
+  ↳ Related: Post Exploitation
+
+- AES  
+  ↳ Labs: 2.1  
+  ↳ Related: Cryptography, CBC, OpenSSL
+
+- Alternative Payloads  
+  ↳ Labs: 4.5, 6.1  
+  ↳ Related: Library Loading, Environment Variables
+
+- American Fuzzy Lop (AFL)  
+  ↳ Labs: 3.5  
+  ↳ Related: Fuzzing, Sulley, BooFuzz, Code Coverage, DynamoRIO, WinAFL
+
+- AMSI  
+  ↳ Labs: 2.5  
+  ↳ Related: UAC, WDAC, Obfuscation, Sharpkiller
+
+- AppArmor  
+  ↳ Related: SELinux
+
+- AppLocker  
+  ↳ Labs: 2.6  
+  ↳ Related: WDAC, Software Restriction Policy
+
+- ARP Spoofing  
+  ↳ Labs: 1.3  
+  ↳ Related: MITM, Ettercap, Responder
 
 ---
 
 ## B
 
-- Backup Designated Router (BDR)
-- BetterCap
-- BGP
-- Blowfish
-- BooFuzz
-- Browser Caching
-- Brute-Forcing ASLR
+- Backup Designated Router (BDR)  
+  ↳ Labs: 1.6  
+  ↳ Related: OSPF
+
+- BetterCap  
+  ↳ Labs: 1.3, 1.5  
+  ↳ Related: Ettercap, MITM, Scapy, mitmproxy, sslstrip
+
+- BGP  
+  ↳ Related: Routing Protocols
+
+- Blowfish  
+  ↳ Related: Cryptography
+
+- BooFuzz  
+  ↳ Labs: 3.4  
+  ↳ Related: Fuzzing, Sulley, Code Coverage, AFL
+
+- brk()  
+  ↳ Related: Heap, Memory Allocation
+
+- Browser Caching  
+  ↳ Related: HTTP Headers
+
+- Brute-Forcing ASLR  
+  ↳ Labs: 4.4  
+  ↳ Related: ASLR, Probabilistic Exploitation
+
+- Bypassing NX Bit / W^X / DEP  
+  ↳ Labs: 4.2, 4.6, 5.3, 5.4  
+  ↳ Related: DEP, ROP, VirtualProtect
 
 ---
 
 ## C
 
-- C2
-- Cain
-- Calling Conventions
-- Canaries
-- Captive Portal
-- Cipher Block Chaining (CBC)
-- Cisco Discovery Protocol (CDP)
-- Cloud-Based Cracking
-- Code Coverage
-- Code Segment (CS)
-- Control Flow Guard (CFG)
-- Control Flow Integrity (CFI)
-- Control Registers
-- Counter (CTR)
-- CPU Modes
-- Cryptography
+- C2  
+  ↳ Related: Post Exploitation, Empire
 
----
+- Cain  
+  ↳ Related: Credential Capture, HTTP Authentication
 
-## D
+- Calling Conventions  
+  ↳ Labs: 4.1, 5.1  
+  ↳ Related: Stack Operations, Registers
 
-- Data Encryption Standard (DES)
-- Data Execution Prevention (DEP)
-- Data Register (EDX/RDX)
-- Data Segment (DS)
-- Debugging
-- Denial of Service (DoS)
-- Designated Router (DR)
-- Dynamic Host Configuration Protocol (DHCP)
-- Dynamic Link Libraries (DLLs)
-- Dynamic Trunking Protocol (DTP)
+- Canaries  
+  ↳ Labs: 4.1, 5.2  
+  ↳ Related: Stack Protection, Linux Stack Protection, Security Cookies
 
----
+- Captive Portal  
+  ↳ Labs: 1.2  
+  ↳ Related: NAC, TCP OS Fingerprinting, OSfuscate, Scapy, VLAN Manipulation, sslstrip
 
-## E
+- captive portal scam  
+  ↳ Labs: 1.2  
+  ↳ Related: Captive Portal
 
-- Electronic Codebook (ECB)
-- ELF
-- EMET
-- Encryption
-- Environment Variables
-- Exploit Guard
-- Exploit Mitigation
-- Export Address Table
-- Extra Segment (ES)
+- chunk  
+  ↳ Related: IPv6, Heap, Low Fragmentation Heap
 
----
+- Cipher Block Chaining (CBC)  
+  ↳ Labs: 2.2  
+  ↳ Related: Padding Oracle, Cryptography
 
-## F
+- Cisco Discovery Protocol (CDP)  
+  ↳ Related: DTP, Yersinia, Voice VLAN
 
-- FLAGS Registers
-- Fuzzing
+- Cloud-Based Cracking  
+  ↳ Related: Password Attacks
 
----
+- Code Coverage  
+  ↳ Labs: 3.2  
+  ↳ Related: Fuzzing, AFL, Sulley, BooFuzz, DynamoRIO
 
-## G
+- Code Segment (CS)  
+  ↳ Related: Stack Operations, ROP, W^X
 
-- Gadgets
-- General-Purpose Registers
-- GNU Debugger (GDB)
-- Group Policy Objects
-- Grsecurity
-
----
-
-## H
-
-- Hash Identification
-- Heap
-- Heap Cookies
-- Heap Spray
-- Hot Standby Router Protocol (HSRP)
-- HTTP Strict Transport Security (HSTS)
-
----
-
-## I
-
-- IDA Pro
-- Instruction Pointer
-- Integer Overflows
-- Initialization Vector (IV)
-- IPv6
-
----
-
-## J
-
-- Jump-Oriented Programming (JOP)
-
----
-
-## K
-
-- kernel32.dll
-- Kernel Hardening
-
----
-
-## L
-
-- Lazy Linking
-- LD_LIBRARY_PATH
-- LD_PRELOAD
-- Library Loading
-- Linker
-- Linux Stack Protection
-- Loader
-- Low Fragmentation Heap (LFH)
-
----
-
-## M
-
-- MAC Address
-- MAC OUI
-- Memory Corruption
-- Message Integrity Check (MIC)
-- Metasploit
-- Mitigation Controls
-- Modern Defenses
-
----
-
-## N
-
-- Name Resolution
-- Netwide Assembler (NASM)
-- Network Access Control (NAC)
-- NX Bit
-
----
-
-## O
-
-- Obfuscation
-- Object Files
-- Opcodes
-- Open Shortest-Path First (OSPF)
-- OpenSSL
-- Operating System Internals
-
----
-
-## P
-
-- Padding Oracle
-- Paging
-- Passive OS Fingerprinting
-- PaX
-- PE/COFF
-- Physical Memory
-- Position Independent Executable (PIE)
-- Post Exploitation
-- Procedure Epilogue
-- Procedure Linkage Table (PLT)
-- Procedure Prologue
-- Process Environment Block (PEB)
-- Processor Architecture
-- Processor Cache
-- Processor Registers
-- Protected Mode
+- Control Flow Guard (CFG)  
+  ↳ Labs: 5.1  
+  ↳ Related: Control Flow Integrity, Mitigation Controls
 
----
+- Control Flow Integrity (CFI)  
+  ↳ Related: CFG, Exploit Mitigation
 
-## R
+- Control Registers  
+  ↳ Related: Instruction Pointer
 
-- RADIUS
-- RC4
-- Request for Comment (RFC)
-- Restricted Desktops
-- Return-Oriented Programming (ROP)
-- Reverse Engineering
-- Risk Analysis
-- Routing Protocols
+- Counter (CTR)  
+  ↳ Labs: 2.1  
+  ↳ Related: ECB, CBC, Cryptography
 
----
+- CPU Modes  
+  ↳ Related: Processor Access Modes
 
-## S
+- cpscam  
+  ↳ Related: Captive Portal
 
-- SafeSEH
-- Scapy
-- Segment Registers
-- SEHOP
-- SELinux
-- Shellcode
-- Simple Network Management Protocol (SNMP)
-- Software Restriction Policy (SRP)
-- Stack Exploitation
-- Stack Operations
-- Stack Pivoting
-- Stack Protection
-- Structured Exception Handling (SEH)
-- Sulley
-- System Calls
+- crashbin_explorer.py  
+  ↳ Labs: 3.4  
+  ↳ Related: Fuzzing, Crash Analysis
 
----
-
-## T
-
-- TCP Stack Fingerprinting
-- Thread Environment Block (TEB)
-- Thread Information Block (TIB)
-- Tracing
-- Triple DES (3DES)
-- Twofish
-
----
-
-## U
-
-- unlink()
-- Use-After-Free (UAF)
-- User Account Control (UAC)
-- User Impersonation
-
----
-
-## V
-
-- Virtual Memory
-- Virtual Router Redundancy Protocol (VRRP)
-- VirtualProtect
-- VLAN
-- VLAN Hopping
-- Voice VLAN
-
----
-
-## W
-
-- WinAFL
-- WinDBG
-- Windows Core Components
-- Windows Defender Application Control (WDAC)
-- WOW64
-
----
-
-## X
-
-- x64 Architecture
-- x86 Architecture
-
----
-
-## Y
-
-- Yersinia
-
----
-
-## Z
-
-- ZwSetInformationProcess
+- crypto  
+  ↳ Related: Cryptography
