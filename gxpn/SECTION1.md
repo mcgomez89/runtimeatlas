@@ -138,4 +138,8 @@ Authentication, encryption, and MFA are only effective if network access decisio
 
 ## Next Steps
 
-The next section shifts focus from *access* to *data handling*. With access established, attention moves to how data is encoded, encrypted, validated, and transformed—and how failures in those processes enable exploitation.
+Once network access is established, defensive assumptions about trust, identity, and isolation begin to fail.  
+At this stage, the attacker is no longer constrained by perimeter controls and can directly observe, manipulate, or replay application data.
+
+The next phase focuses on **how data is protected once access exists**—examining whether confidentiality, integrity, and authorization are enforced cryptographically or merely implied through formatting, encoding, or client-side controls.
+
