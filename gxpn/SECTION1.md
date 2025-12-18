@@ -136,6 +136,6 @@ Authentication, encryption, and MFA are only effective if network access decisio
 
 ---
 
-## Next Section
+## Next Steps
 
 The next section shifts focus from *access* to *data handling*. With access established, attention moves to how data is encoded, encrypted, validated, and transformed—and how failures in those processes enable exploitation.
